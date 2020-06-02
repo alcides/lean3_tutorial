@@ -20,15 +20,21 @@ Follow along at home at:
 https://leanprover-community.github.io/lean-web-editor/
 
 
+You can install lean (brew install lean) and use [emacs mode](https://github.com/leanprover/lean-mode) or vscode, through its extension marketplace.
+
 
 ## My first proof
 
 ```lean
-theorem my_first_theorem : ∀ p, p -> p :=
+theorem my_first_theorem : ∀ p, p → p :=
 begin
     sorry
 end
 ```
+
+* You can write "∀" with \forall<TAB> and "→" with \r<TAB>. "forall" and "->" also works, but no one uses them.
+* This theorem typechecks, but has a warning: `declaration 'my_first_theorem' uses sorry`.
+* Let us write a proof that LEAN can check for us. Let's use the "Lean Goal" window to 
 
 
 

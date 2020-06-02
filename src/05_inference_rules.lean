@@ -1,5 +1,3 @@
-import tactic.suggest
-
 /-
 
 One of the reference works for proving theorems about programming languages is

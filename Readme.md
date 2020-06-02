@@ -34,7 +34,8 @@ end
 
 * You can write "∀" with \forall<TAB> and "→" with \r<TAB>. "forall" and "->" also works, but no one uses them.
 * This theorem typechecks, but has a warning: `declaration 'my_first_theorem' uses sorry`.
-* Let us write a proof that LEAN can check for us. Let's use the "Lean Goal" window to 
+* Let us write a proof that LEAN can check for us. Let's use the "Lean Goal" window to find what we have and what we want.
+
 
 
 

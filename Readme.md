@@ -13,6 +13,12 @@ Lean is a programming language + compiler that also works as a interactive theor
 We will be covering Lean 3, the latest stable version. Lean 4 is being developed without external contributions at this time.
 
 
+# Important:
+
+This file was written for a live tutorial. For the written down version, see the files inside the src folder, by order.
+
+
+
 ## This is an interactive tutorial.
 
 Follow along at home at: 
@@ -181,4 +187,9 @@ https://leanprover.github.io/
 
 https://leanprover.zulipchat.com <-- I have gotten useful help in a matter of minutes twice in the past!
 
-[Simple Verification of Rust Programs via Functional Purification](https://kha.github.io/electrolysis/presentation.pdf)
+
+## What can I use Lean for?
+
+* The same you use agda, coq or idris for.
+
+* Here is an interesting project that converts Rust to Lean for proving properties about Rust programs: [Simple Verification of Rust Programs via Functional Purification](https://kha.github.io/electrolysis/presentation.pdf)
